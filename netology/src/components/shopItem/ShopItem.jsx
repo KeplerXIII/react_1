@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import './ShopItem.css'
 
-export default function ShopItemFunc (props) {
-    const item = props.item
+export default function ShopItemFunc ({ item }) {
     return (
     <div className="main-content">
         <h2>{item.brand}</h2>
